@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0)
+}
+
+/*header*/
+header {
+    display: flex;
+   
+    width: 100%;
+    height: 130px;
+    
+    position: relative;
+    border-bottom: 1px solid #e4e4e4;
+
+}
+header #search-bar {
+    justify-self: start;
+    position: fixed;
+    
+    display: flex;
+    width: 100%;
+
+
+}
+
+header div {
+    padding: 20px 12px 15px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
+#left-top {
+    justify-self: flex-start;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    padding: 20px 12px 15px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
+input[type='search'] {
+    border: none;
+    display: inline-block;
+    font: 16px Arial, sans-serif;
+    height: 44px;
+    outline: none;
+    width: 580px;
+}
+input[type="search" i] {
+    appearance: searchfield;
+    box-sizing: border-box;
+    padding: 1px 2px;
+}
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none; 
+    text-align: start;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+}
+form {
+    background-color: #fff;
+    border: none;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin: 0 17px;
+    outline: none;
+    padding: 0 15px;
+    transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    width: 632px;
+}
+button svg {
+    fill: #4285f4;
+    height: 24px;
+    width: 24px;
+    
+    
+}
+
+#logo {
+    width: 120px;
+    height: 44px;
+    cursor: pointer;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    vertical-align: middle;
+    appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+
+#right-top {
+    justify-self: flex-end;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+#google-apps {
+    box-sizing: border-box;
+    display: inline-block;
+    
+    margin-right: 15px;
+    opacity: 0.55;
+    vertical-align: middle;
+    
+}
+
+#sign-in {
+    background: #4285f4;
+    background: -moz-linear-gradient(#4387fd, #4683ea);
+    background: -webkit-linear-gradient(#4387fd, #4683ea);
+    background: linear-gradient(#4387fd, #4683ea);
+    border: 1px solid #4285f4;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    color: white;
+    cursor: default;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 28px;
+    padding: 0 12px;
+    text-decoration: none;
+    vertical-align: middle;
+    
+}
+#sign-in:hover {
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+a {
+    text-decoration: none;
+}
+#search-bar button {
+    border-radius: 2px;
+    color: white;
+    cursor: default;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 28px;
+    padding: 0 12px;
+    text-decoration: none;
+    vertical-align: middle;
+
+}
+
+#navbar {
+    justify-self: flex-end;
+    align-self: flex-end;
+    align-items: center;
+    display: flex;
+    margin-left: 150px;
+    width: 632px;
+    color: #777;
+    
+}
+#navbar ul {
+    align-self: flex-end;
+    
+}
+#navbar ul  li{
+    display: inline-block;
+}
+nav a {
+    padding: 10px 15px;
+    line-height: 19px;
+    text-decoration: none;
+    font: 13px Arial, sans-serif;
+    border-radius: 2px;
+    color: #777;
+    line-height: 19px;
+    padding: 10px 15px;
+    border: 1px solid transparent;
+}
+.nav-link-selected {
+    border-bottom: 3px solid #1A73E8;
+    color: #1A73E8;
+    font-weight: bold;
+}
+
+nav a:nth-child(7) {
+    margin-left: auto;
+}
+
+
+/*main section */
+main {
+    margin-left: 150px;
+    width: 632px;
+    display: block;
+
+}
+#result-stats {
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 8px;
+    padding: 12px 20px;
+    color: #777;
+    
+    
+    
+}
