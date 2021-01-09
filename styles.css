@@ -160,7 +160,7 @@ button {
 a {
     text-decoration: none;
 }
-#search-bar button {
+#search-bar #sign-in {
     border-radius: 2px;
     color: white;
     cursor: default;
@@ -236,9 +236,7 @@ main {
     
 }
 
-main a:visited {
-    color: #609;
-}
+
 main li {
     list-style: none;
 }
@@ -300,6 +298,13 @@ main li {
     line-height: 1.58;
     
 }
+.list i {
+    position: absolute;
+    right: 23%;
+    margin-top: 7px;
+
+    color: #70757a;
+}
 #list-end {
     border-bottom: none;
 }
@@ -318,7 +323,7 @@ main li {
     line-height: 1.3;
     color: #202124;
     font-weight: normal;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
 }
 #suggestion-container {
     width: 500px;
@@ -327,15 +332,27 @@ main li {
     display: flex;
 
 }
+#suggestion-container ul {
+    padding: 0;
+    margin: 0;
+}
 #left {
     justify-self: flex-start;
     width: 50%;
 }
 #suggestion-container li {
+    display: flex;
     font-weight: bold;
     font-weight: 17px;
     margin: 0 0 0 16px;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
+    
+    text-align: left;
+}
+#suggestion-container i {
+    margin-right: 20px;
+    color: #70757a;
+
 }
 #left li {
     font-size: 16px;
@@ -366,4 +383,86 @@ main li {
 }
 #right ul {
     margin-top: 40px;
+}
+
+.google {
+    width: 18px;
+    height: 43px;
+    display: block;
+}
+.blue-color {
+    color:rgb(66, 133, 244);
+}
+
+table {
+    color: rgb(66, 133, 244);
+    margin: 30px auto;
+    text-align: center;
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+td:last-child {
+    text-align: end;
+    width: 80px;
+}
+
+/*footer*/
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    width: 100%;
+    font-weight: normal;
+    position: absolute;
+    
+}
+
+#top-footer {
+    height: 50%;
+    display: flex;
+    border-top: rgb(223, 220, 220) 1px solid;
+    align-items: center;
+    justify-content: center;
+}
+#top-footer div {
+    width: 70%;
+}
+#top-footer  h2 {
+    color: #70757a;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+
+#bottom-footer {
+    border-top: rgb(223, 220, 220) 1px solid;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+#bottom-footer div {
+    width: 70%;
+    margin-right: 30px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#bottom-footer a {
+    color: #70757a;
+    font-weight: normal;
+    font-size: 15px;
+    padding-right: 5px;
+
 }
